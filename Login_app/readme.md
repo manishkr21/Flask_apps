@@ -5,14 +5,17 @@
 4. create a structure like
  
  ```diff
- app-
-    - templates
-        - index.html
-        - login.html
-        - signup.html
-        - 
-    - app.py
- venv
+   app-
+      - instance
+          - users.db
+      - templates
+          - css
+              - style.css
+          - index.html
+          - login.html
+          - signup.html
+      - app.py
+   venv - virtual environment
  ```
  
  
